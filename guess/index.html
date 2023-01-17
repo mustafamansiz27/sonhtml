@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practise.css">
+    <title>guess</title>
+</head>
+
+<style>
+  
+  .card {
+    right: 30px;
+    height: 50px;
+    width:70%;
+    border: 1px solid black ;
+    border-radius: 50%;
+    text-align: center;
+    padding: 1rem  3rem;
+    background-color: aquamarine;
+  }
+  .card .txt{
+    display: none;
+  }
+
+</style>
+<body>
+
+    <div class="card">
+         <input type="text" id="textAria" class="txt">
+         <button onclick="start()" id="btn1"> start the game</button>
+         <button onclick="guess()" id="btn2">guess</button>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
